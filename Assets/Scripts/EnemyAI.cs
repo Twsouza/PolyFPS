@@ -42,17 +42,19 @@ public class EnemyAI : MonoBehaviour
         if (distanceToTarget <= navMeshAgent.stoppingDistance)
         {
             AttackTarget();
-        }
+        } 
     }
 
     private void ChaseTarget()
     {
+        GetComponent<Animator>().SetBool("attack", false);
+        GetComponent<Animator>().SetTrigger("move");
         navMeshAgent.SetDestination(target.position);
     }
 
     private void AttackTarget()
     {
-        Debug.Log(name + " has seeked and is desroying " + target.name);
+        GetComponent<Animator>().SetBool("attack", true);
     }
 
     private void OnDrawGizmosSelected()
