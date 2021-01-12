@@ -353,7 +353,13 @@ PrefabInstance:
         type: 3}
       propertyPath: bulletShell
       value: 
-      objectReference: {fileID: 1226133691559941923}
+      objectReference: {fileID: 0}
+    - target: {fileID: 5766809928015167520, guid: fdb81f9035be9324b9242c60092e8a80,
+        type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
+        type: 3}
     - target: {fileID: 8553913064635297284, guid: fdb81f9035be9324b9242c60092e8a80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -425,12 +431,6 @@ Transform:
 --- !u!198 &3692977679021020195 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 2797881884406818917, guid: fdb81f9035be9324b9242c60092e8a80,
-    type: 3}
-  m_PrefabInstance: {fileID: 1554873689863830598}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &1226133691559941923 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 328797384303618917, guid: fdb81f9035be9324b9242c60092e8a80,
     type: 3}
   m_PrefabInstance: {fileID: 1554873689863830598}
   m_PrefabAsset: {fileID: 0}
