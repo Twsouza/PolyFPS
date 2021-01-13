@@ -566,6 +566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pistol
       objectReference: {fileID: 0}
+    - target: {fileID: 8663213259682470086, guid: fdb81f9035be9324b9242c60092e8a80,
+        type: 3}
+      propertyPath: fpsController
+      value: 
+      objectReference: {fileID: 6240911195461906534}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdb81f9035be9324b9242c60092e8a80, type: 3}
 --- !u!4 &7143166399870390850 stripped
@@ -714,6 +719,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rifle
       objectReference: {fileID: 0}
+    - target: {fileID: 3914841192379695771, guid: 970fad2ed94902e4a983bb87f524b3da,
+        type: 3}
+      propertyPath: fpsController
+      value: 
+      objectReference: {fileID: 6240911195461906534}
     - target: {fileID: 7234517565856847550, guid: 970fad2ed94902e4a983bb87f524b3da,
         type: 3}
       propertyPath: FPCamera
@@ -799,6 +809,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sniper
       objectReference: {fileID: 0}
+    - target: {fileID: 2942974360305389836, guid: a1fee13b0d065be4692cb74e7b52231e,
+        type: 3}
+      propertyPath: fpsController
+      value: 
+      objectReference: {fileID: 6240911195461906534}
     - target: {fileID: 4220298459884462243, guid: a1fee13b0d065be4692cb74e7b52231e,
         type: 3}
       propertyPath: FPCamera
