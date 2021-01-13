@@ -114,7 +114,9 @@ MonoBehaviour:
   FPCamera: {fileID: 0}
   range: 100
   damage: 10
-  muzzleFlash: {fileID: 0}
+  muzzleFlash: {fileID: 2797881884406818917}
+  hitEffect: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
+    type: 3}
 --- !u!1 &8553913064635729150
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +426,12 @@ PrefabInstance:
 --- !u!4 &2797881884392665529 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2841793177944681879, guid: 3fcd64304b4cc8441a3508d61c034f4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 118220687478152238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2797881884406818917 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 2841793177964082251, guid: 3fcd64304b4cc8441a3508d61c034f4f,
     type: 3}
   m_PrefabInstance: {fileID: 118220687478152238}
   m_PrefabAsset: {fileID: 0}
