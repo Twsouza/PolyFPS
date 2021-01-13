@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 143042739}
   - component: {fileID: 143042740}
   - component: {fileID: 2513418023286989999}
+  - component: {fileID: 3628868514599435476}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -178,6 +179,19 @@ MonoBehaviour:
   zoomedInFOV: 20
   zoomedOutSensitivity: 2
   zoomedInSensitivity: 0.5
+--- !u!114 &3628868514599435476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240911195473151364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bde8af36c9389d47846c848059eb769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!1 &6240911195473151366
 GameObject:
   m_ObjectHideFlags: 0
@@ -391,20 +405,9 @@ PrefabInstance:
       objectReference: {fileID: 6240911195473217442}
     - target: {fileID: 5766809928015167520, guid: fdb81f9035be9324b9242c60092e8a80,
         type: 3}
-      propertyPath: muzzleFlash
+      propertyPath: ammoSlot
       value: 
-      objectReference: {fileID: 3692977679021020195}
-    - target: {fileID: 5766809928015167520, guid: fdb81f9035be9324b9242c60092e8a80,
-        type: 3}
-      propertyPath: bulletShell
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5766809928015167520, guid: fdb81f9035be9324b9242c60092e8a80,
-        type: 3}
-      propertyPath: hitEffect
-      value: 
-      objectReference: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
-        type: 3}
+      objectReference: {fileID: 3628868514599435476}
     - target: {fileID: 8553913064635297284, guid: fdb81f9035be9324b9242c60092e8a80,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -470,12 +473,6 @@ PrefabInstance:
 --- !u!4 &7143166399870390850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8553913064635297284, guid: fdb81f9035be9324b9242c60092e8a80,
-    type: 3}
-  m_PrefabInstance: {fileID: 1554873689863830598}
-  m_PrefabAsset: {fileID: 0}
---- !u!198 &3692977679021020195 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2797881884406818917, guid: fdb81f9035be9324b9242c60092e8a80,
     type: 3}
   m_PrefabInstance: {fileID: 1554873689863830598}
   m_PrefabAsset: {fileID: 0}
