@@ -61,12 +61,8 @@ public class EnemyAI : MonoBehaviour
     private void FaceTarget()
     {
         Vector3 direction = (target.position - transform.position).normalized;
-        Debug.Log(direction);
         Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-        Debug.Log(lookRotation);
         transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * turnSpeed);
-        Debug.Log(transform.rotation);
-        //Debug.Break();
     }
 
     private void OnDrawGizmosSelected()
