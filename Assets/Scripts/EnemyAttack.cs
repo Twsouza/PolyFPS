@@ -14,6 +14,7 @@ public class EnemyAttack : MonoBehaviour
 
     public void AttackHitEvent()
     {
+        Debug.Log("I'm attacking");
         if (target == null) return;
         target.TakeDamage(damage);
     }
