@@ -212,10 +212,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ea62163083b4643853bacd5eb7405e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomedOutFOV: 80
-  zoomedInFOV: 20
+  zoomedOutFOV: 60
+  zoomedInFOV: 10
   zoomedOutSensitivity: 2
   zoomedInSensitivity: 0.5
+  fpsController: {fileID: 0}
 --- !u!1 &2089039130439098005
 GameObject:
   m_ObjectHideFlags: 0

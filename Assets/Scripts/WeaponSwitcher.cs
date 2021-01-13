@@ -80,9 +80,6 @@ public class WeaponSwitcher : MonoBehaviour
         int weaponIndex = 0;
         foreach(Transform weapon in transform)
         {
-            WeaponZoom zoom = weapon.GetComponent<WeaponZoom>();
-            if (zoom) zoom.ZoomOut();
-
             weapon.gameObject.SetActive(weaponIndex == currentWeapon);
             weaponIndex++;
         }

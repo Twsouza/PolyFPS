@@ -120,6 +120,7 @@ MonoBehaviour:
   hitEffect: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
     type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 0
 --- !u!114 &8663213259682470086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,10 +133,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63ea62163083b4643853bacd5eb7405e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  zoomedOutFOV: 40
-  zoomedInFOV: 20
+  zoomedOutFOV: 60
+  zoomedInFOV: 40
   zoomedOutSensitivity: 2
   zoomedInSensitivity: 0.5
+  fpsController: {fileID: 0}
 --- !u!1 &8553913064635729150
 GameObject:
   m_ObjectHideFlags: 0
