@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8553913064633322536}
   - component: {fileID: 8526310333963641988}
   - component: {fileID: 5766809928015167520}
+  - component: {fileID: 8663213259682470086}
   m_Layer: 0
   m_Name: SM_Wep_PistolBandit_01
   m_TagString: Untagged
@@ -112,12 +113,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 0}
-  range: 100
+  range: 40
   damage: 10
+  timeBetweenShots: 1
   muzzleFlash: {fileID: 2797881884406818917}
   hitEffect: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
     type: 3}
   ammoSlot: {fileID: 0}
+--- !u!114 &8663213259682470086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8553913064635559730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ea62163083b4643853bacd5eb7405e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  zoomedOutFOV: 40
+  zoomedInFOV: 20
+  zoomedOutSensitivity: 2
+  zoomedInSensitivity: 0.5
 --- !u!1 &8553913064635729150
 GameObject:
   m_ObjectHideFlags: 0
