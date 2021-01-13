@@ -306,7 +306,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.5
-    functionName: EngageTarget
+    functionName: AttackHitEvent
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: c8f41381681b3f54a810061dc02c7753,
       type: 3}
