@@ -199,6 +199,7 @@ MonoBehaviour:
   hitEffect: {fileID: 7652721167019357697, guid: 711356b6a9ceb934aa8599eabe362302,
     type: 3}
   ammoSlot: {fileID: 0}
+  ammoType: 2
 --- !u!114 &2942974360305389836
 MonoBehaviour:
   m_ObjectHideFlags: 0
