@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 143042739}
   - component: {fileID: 143042740}
   - component: {fileID: 3628868514599435476}
+  - component: {fileID: 5855735544958658578}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -187,6 +188,20 @@ MonoBehaviour:
     ammoAmount: 5
   - ammoType: 5
     ammoAmount: 0
+--- !u!114 &5855735544958658578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6240911195473151364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8951ceac78a7f42a4490d9f3cb3e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactCanvas: {fileID: 0}
+  impactTime: 0.3
 --- !u!1 &6240911195473151366
 GameObject:
   m_ObjectHideFlags: 0
