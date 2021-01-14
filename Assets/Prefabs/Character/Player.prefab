@@ -60,7 +60,7 @@ CapsuleCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6240911195473151364}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 05ec3ec1479841349872b50214f25ea9, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
@@ -86,7 +86,7 @@ MonoBehaviour:
     StrafeSpeed: 4
     RunMultiplier: 2
     RunKey: 304
-    JumpForce: 70
+    JumpForce: 50
     SlopeCurveModifier:
       serializedVersion: 2
       m_Curve:
