@@ -8,8 +8,6 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
-        Debug.Log("I've been hit");
-
         playerHealth -= damage;
 
         if (playerHealth <= 0)
