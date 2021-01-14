@@ -25,6 +25,8 @@ public class Ammo : MonoBehaviour
 
     public void IncreaseAmmo(AmmoType type, int amount)
     {
+        Debug.Log("IncreaseAmmo " + amount + " for " + type);
+
         GetAmmoSlot(type).ammoAmount += amount;
     }
 

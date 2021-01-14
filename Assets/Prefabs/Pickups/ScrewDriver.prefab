@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5410085006019675383}
   - component: {fileID: 1658334857213985345}
   - component: {fileID: 975456411186923174}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ScrewDriver
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,6 +132,10 @@ PrefabInstance:
     - target: {fileID: 101822, guid: 047d5c1e139eb834fa27f2984e146790, type: 3}
       propertyPath: m_Name
       value: SM_Item_ScrewDriver_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 101822, guid: 047d5c1e139eb834fa27f2984e146790, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 417608, guid: 047d5c1e139eb834fa27f2984e146790, type: 3}
       propertyPath: m_LocalPosition.x

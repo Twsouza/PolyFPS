@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 63169716240197813}
   - component: {fileID: 63169716243016467}
   - component: {fileID: 63169716242197165}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Item_AmmoPack_Supplies_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 63169716240181229}
   - component: {fileID: 63169716243024853}
   - component: {fileID: 63169716242203237}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Item_AmmoPack_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   - component: {fileID: 63169716240190683}
   - component: {fileID: 63169716243016485}
   - component: {fileID: 63169716242184681}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Item_AmmoPack_Lid_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -250,7 +250,7 @@ GameObject:
   - component: {fileID: 5990439931052006524}
   - component: {fileID: 4730673923805458691}
   - component: {fileID: 2784082113808891083}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Battery
   m_TagString: Untagged
   m_Icon: {fileID: 0}

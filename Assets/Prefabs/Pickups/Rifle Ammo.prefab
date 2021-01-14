@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5990439931052006524}
   - component: {fileID: 4730673923805458691}
   - component: {fileID: 8731521195527871341}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Rifle Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 4427165027542818529}
   - component: {fileID: 7241944839918415947}
   - component: {fileID: 6672353617568949479}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Wep_RifleSwat_Mag_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

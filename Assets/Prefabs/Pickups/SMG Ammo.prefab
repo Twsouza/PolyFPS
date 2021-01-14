@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5990439931052006524}
   - component: {fileID: 4730673923805458691}
   - component: {fileID: 8731521195527871341}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SMG Ammo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 5578232930088041646}
   - component: {fileID: 8970881854432863763}
   - component: {fileID: 5510129074784145887}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SM_Wep_SMG_Mag_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}

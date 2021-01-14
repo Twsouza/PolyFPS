@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6887411156715686528}
   - component: {fileID: 1800981569081720356}
   - component: {fileID: 426911833793187672}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Wrench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,6 +132,10 @@ PrefabInstance:
     - target: {fileID: 179442, guid: 34cdc52af67887c4e93161cebc580348, type: 3}
       propertyPath: m_Name
       value: SM_Item_Wrench_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 179442, guid: 34cdc52af67887c4e93161cebc580348, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 496744, guid: 34cdc52af67887c4e93161cebc580348, type: 3}
       propertyPath: m_LocalPosition.x
